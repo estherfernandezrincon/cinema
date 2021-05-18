@@ -1,0 +1,67 @@
+body {
+   
+    border: 8px dotted whitesmoke;
+    padding: 50px;
+    background-size: 1600px 900px;
+    background-color: black;
+   
+    
+}
+
+img-container {
+
+    float: right;
+    padding-right: 10px;
+        
+}
+
+img {
+    opacity: 0.5;
+    
+}
+  
+img:hover {
+    opacity: 1.0;
+}
+
+
+ input {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    color:red;
+ }
+
+
+label {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    color: white;
+    padding-left: 75px;
+    padding-right: 175px;
+        
+}
+
+input{
+    width: 50%;
+    padding-left: 75px;
+    padding-right: 175px;
+    
+}
+
+
+div.sticky {
+    position: -webkit-sticky;
+    position: fixed;
+    top: 0;
+    padding: 5px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    opacity: 0.7;
+    text-align: center;
+
+}
+
+p {
+    color: white;
+    text-align: center;
+}
