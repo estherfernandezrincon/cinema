@@ -8,7 +8,7 @@ let titulos = {
     La fuerza de un verdadero Dios se mide por la fuerza del corazón = "Hércules";
 }
 
-if (input = titulos[input[Mayo...nesa!!]]){
+if (input = titulos[Mayo...nesa!!]){
     alert('correcto')
 
 }else {

@@ -11,15 +11,33 @@ body {
 .flex-img-container {
     display: flex;
     justify-content: space-evenly;
+    
                
 }
 
 .foto1 , .foto2 , .foto3,.foto4, .foto5 {
+    position: relative;
     width: 20%;
     height: 10%;
     padding: 10px;
 
 }
+
+.foto6 {
+    position: absolute;
+    bottom: 30%;
+    width: 20%;
+    height: 10%;
+}
+
+.foto7 {
+    position: absolute;
+    right: 10%;
+    top: 70%;
+    width: 50%;
+    height: 80%;
+}
+
 
 img {
     opacity: 0.5;
@@ -35,6 +53,7 @@ img:hover {
     font-family: "Times New Roman", Times, serif;
     font-size: 20px;
     color:red;
+    width: 30%;
  }
 
 
@@ -42,27 +61,20 @@ label {
     font-family: "Times New Roman", Times, serif;
     font-size: 20px;
     color: white;
-    padding-left: 75px;
-    padding-right: 175px;
+    
+    width: 50px;
         
 }
 
-input{
-    width: 50%;
-    padding-left: 75px;
-    padding-right: 175px;
-    
-}
+
 
 
 div.sticky {
     position: -webkit-sticky;
     position: fixed;
-    top: 15px;
-
-    
+    top: 15px;   
     padding: 5px;
-    background-color: white;
+    background-color: lightgray;
     border: 2px solid black;
     opacity: 0.7;
     text-align: center;
