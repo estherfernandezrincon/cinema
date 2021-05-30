@@ -1,16 +1,33 @@
-let titulos = {
-    Mayo......nesa!! = "Oficial y Caballero";
-    A dios pongo por testigo que nunca jamás volveré a pasar hambre!! = "Lo que el viento se llevó";
-    Me llamo Iñigo Montoya, tu mataste a mi padre, preparate a morir = "La princesa prometida";
-    La tía Etna cuidará de Jack Jack = "Los increibles 2";
-    No dejaré que nadie te arrincone = "Dirty dancing";
-    Hasta el infinito....y más allá = "Toy story";
-    La fuerza de un verdadero Dios se mide por la fuerza del corazón = "Hércules";
+peliculas= JSON.parse(frasesPeliculas)
+
+
+function elJuego() {
+    var right= "acierto";
+    var wrong = "prueba otra vez";
+    var peli = document.getElementById("1");
+
+    if(peli == peliculas[id][titulo])
+        document.getElementById("message").innerHTML = right;
+        else{
+            document.getElementById("message").innerHTML = wrong;
+        }
 }
 
-if (input = titulos[Mayo...nesa!!]){
-    alert('correcto')
+        
 
-}else {
-    alert('prueba otra vez');
-}
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
