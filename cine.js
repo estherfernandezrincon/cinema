@@ -34,7 +34,7 @@ const right= "acierto";
 const wrong = "prueba otra vez";
 
 
-uno1.addEventListener("ckick", elJuego);   
+uno1.addEventListener("click", elJuego);   
 
 function elJuego(){
     if( uno1 == frasesPeliculas[0]["titulo"])
@@ -42,7 +42,7 @@ function elJuego(){
     else{
         document.getElementById("message").innerText = wrong;
     }
-}
+};
 
 
 
