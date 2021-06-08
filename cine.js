@@ -7,35 +7,50 @@ frasesPeliculas = [ {"id": "1", "titulo": "oficial y caballero", "frase": "Mayo.
                     {"id": "7", "titulo": "hercules", "frase": "La fuerza de un verdadero Dios se mide por la fuerza del corazón"},
                     ]
 
+const msg = document.getElementById("message");
 
+const unoInput= document.getElementById("1");
+const unoBtn = document.getElementById("1btn");
 
-const uno= document.getElementById("1");
-const dos= document.getElementById("2");
-const tres= document.getElementById("3");
-const cuatro= document.getElementById("4");
-const cinco= document.getElementById("5");
-const seis= document.getElementById("6");
-const siete= document.getElementById("7");
+const dosInput= document.getElementById("2");
+const dosBtn= document.getElementById("2btn");
+
+const tres= document.getElementById("3btn");
+const cuatro= document.getElementById("4btn");
+const cinco= document.getElementById("5btn");
+const seis= document.getElementById("6btn");
+const siete= document.getElementById("7btn");
 
 const right= "acierto";
 const wrong = "prueba otra vez";
 
 
-uno.addEventListener("click", elJuego);   
+function elJuego1(){
+    const valor= unoInput.value.toLowerCase();
+    const respuesta = frasesPeliculas[0]["titulo"];
 
-function elJuego(){
-    if( uno == frasesPeliculas[0]["titulo"])
-    document.getElementById("message").innerText = right;
-    else{
-        document.getElementById("message").innerText = wrong;
+    if( valor === respuesta){
+        msg.innerText = right;
+    } else{
+        msg.innerText = wrong;
     }
 };
 
 
+unoBtn.addEventListener("click", elJuego1);  
 
+function elJuego2(){
+    const valor= dosInput.value.toLowerCase();
+    const respuesta = frasesPeliculas[1]["titulo"];
 
+    if( valor === respuesta){
+        msg.innerText = right;
+    } else{
+        msg.innerText = wrong;
+    }
+};
 
-
+dosBtn.addEventListener("click", elJuego2);  
 
         
 
