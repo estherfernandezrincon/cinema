@@ -10,34 +10,21 @@ frasesPeliculas = [ {"id": "1", "titulo": "oficial y caballero", "frase": "Mayo.
 
 
 const uno= document.getElementById("1");
-const uno1 = uno.toLowerCase();
-
 const dos= document.getElementById("2");
-const dos2 = dos.toLowerCase();
-
 const tres= document.getElementById("3");
-const tres3 = tres.toLowerCase();
-
 const cuatro= document.getElementById("4");
-const cuatro4 = cuatro.toLowerCase();
-
 const cinco= document.getElementById("5");
-const cinco5 = cinco.toLowerCase();
-
 const seis= document.getElementById("6");
-const seis6 = seis.toLowerCase();
-
 const siete= document.getElementById("7");
-const siete7 = siete.toLowerCase();
 
 const right= "acierto";
 const wrong = "prueba otra vez";
 
 
-uno1.addEventListener("click", elJuego);   
+uno.addEventListener("click", elJuego);   
 
 function elJuego(){
-    if( uno1 == frasesPeliculas[0]["titulo"])
+    if( uno == frasesPeliculas[0]["titulo"])
     document.getElementById("message").innerText = right;
     else{
         document.getElementById("message").innerText = wrong;
